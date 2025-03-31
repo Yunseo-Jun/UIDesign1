@@ -1,6 +1,20 @@
 body {	
-	background: darkblue;
-	color: lightpink;
-	Font-family: arial;
+	 background-image: url("Pic.JPG");
+ 	 background-color: #white;
+ 	 background-repeat: no-repeat;
+  	 background-attachment: fixed;
+  	 background-position: center; 
+  	 background-size: 720px 480px;
+
+  	 color: red;
+  	 font-family: Courier New;
 }
 
+#main-title {
+    color: purple;
+    text-align: center;
+}
+.intro {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
