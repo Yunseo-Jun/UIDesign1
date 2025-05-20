@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Ouvrieres";
+  src: url("Ouvrieres-affamees.ttf");
+}
+
+@font-face {
+  font-family: "Ouvrieres+";
+  src: url("Ouvrieres-agricultrices.ttf");
+}
+
+
+h1 {
+  font-family: "Ouvrieres";
+  font-variation-settings: "Ouvrieres+" 0;
+  transition: font-variation-settings 1.3s ease;
+}
+
+h1:hover {
+  font-variation-settings: "Ouvrieres+" 60;
+}
+
 body {	
 	 background-image: url("Pic.JPG");
  	 background-color: #white;
@@ -7,7 +28,7 @@ body {
   	 background-size: 720px 480px;
 
   	 color: darkblue;
-  	 font-family: Courier New;
+  	 font-family: Ouvrieres;
 }
 
 #main-title {
