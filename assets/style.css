@@ -11,12 +11,20 @@
 
 h1 {
   font-family: "Ouvrieres";
-  font-variation-settings: "Ouvrieres+" 0;
   transition: font-variation-settings 1.3s ease;
 }
 
 h1:hover {
-  font-variation-settings: "Ouvrieres+" 60;
+  font-family: "Ouvrieres+";
+}
+
+.highlight {
+  font-family: "Ouvrieres";
+  transition: font-variation-settings 1.3s ease;
+}
+
+.highlight:hover {
+  font-family: "Ouvrieres+";
 }
 
 body {	
