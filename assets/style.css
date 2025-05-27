@@ -64,7 +64,9 @@ body.darkmode {
   color: ghostwhite;
   font-family: Ouvrieres;
   background-image: url("Chim.JPG");
-  background-size: cover;
+  background-size: 720px 480px;
   background-repeat: no-repeat;
+  background-position: center center; 
+  min-height: 100vh;
 }
 
