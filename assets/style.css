@@ -58,3 +58,11 @@ body {
     color: dodgerblue;
     text-shadow: 0px 0px 10px mediumspringgreen;
 }
+
+body.darkmode {
+  background: #000000;
+  color: ghostwhite;
+  font-family: Ouvrieres;
+}
+
+
