@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Ouvrieres";
+  src: url("Ouvrieres-affamees.ttf");
+}
+
+@font-face {
+  font-family: "Ouvrieres+";
+  src: url("Ouvrieres-agricultrices.ttf");
+}
+
+
+h1 {
+  font-family: "Ouvrieres";
+  transition: font-variation-settings 1.3s ease;
+}
+
+h1:hover {
+  font-family: "Ouvrieres+";
+}
+
+.highlight {
+  font-family: "Ouvrieres";
+  transition: font-variation-settings 1.3s ease;
+}
+
+.highlight:hover {
+  font-family: "Ouvrieres+";
+}
+
+body {	
+	 background-image: url("Pic.JPG");
+ 	 background-color: #white;
+ 	 background-repeat: no-repeat;
+  	 background-attachment: fixed;
+  	 background-position: center; 
+  	 background-size: 720px 480px;
+
+  	 color: darkblue;
+  	 font-family: Ouvrieres;
+}
+
+#main-title {
+    color: dodgerblue;
+    text-align: center;
+    text-shadow: 0px 0px 10px mediumspringgreen;
+}
+.intro {
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+.highlight {
+    color: dodgerblue;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px mediumspringgreen;
+}
+#title {
+    color: dodgerblue;
+    text-shadow: 0px 0px 10px mediumspringgreen;
+}
+
+body.darkmode {
+  background: #000000;
+  color: ghostwhite;
+  font-family: Ouvrieres;
+  background-image: url("Chim.JPG");
+  background-size: 720px 480px;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  min-height: 100vh;
+}
+

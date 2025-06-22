@@ -1,0 +1,24 @@
+body {  
+   display: inline-flex;
+   height: 1080px;
+   padding: 0;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   font-family: 'Adobe Myungjo Std', sans-serif;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+}
+
+.letter {
+  color: #000;
+  font-family: "Adobe Myungjo Std";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

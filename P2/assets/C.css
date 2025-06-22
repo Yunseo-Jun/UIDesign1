@@ -1,0 +1,91 @@
+body {	
+	 background-image: url("www.png");
+ 	 background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 53% center; 
+   background-size: contain;
+   font-family: "Apple Myungjo", serif;;
+   color: black;
+   transition: background-image 0.5s ease;
+}
+
+body:hover {
+  background-image: url("ww.png");
+  background-color: black;
+}
+
+
+#D{
+  left: 300px; top: 400px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#H{
+  left: 640px; top: 400px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#M{
+  left: 980px; top: 400px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#K{
+  left: 1320px; top: 400px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#input1 {
+  position: absolute;
+  top: 400px;
+  left: 470px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid black;        /* 검은 외곽선 */
+  border-radius: 6px;             /* 둥글게 깎기 */
+  background-color: white;        /* 배경 흰색 (또는 transparent 가능) */
+  font-family: "Apple Myungjo", serif;
+}
+
+#input2 {
+  position: absolute;
+  top: 400px;
+  left: 810px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid black;        /* 검은 외곽선 */
+  border-radius: 6px;             /* 둥글게 깎기 */
+  background-color: white;        /* 배경 흰색 (또는 transparent 가능) */
+  font-family: "Apple Myungjo", serif;
+}
+
+#input3 {
+  position: absolute;
+  top: 400px;
+  left: 1150px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid black;        /* 검은 외곽선 */
+  border-radius: 6px;             /* 둥글게 깎기 */
+  background-color: white;        /* 배경 흰색 (또는 transparent 가능) */
+  font-family: "Apple Myungjo", serif;
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>results1</title>
+  <link rel="stylesheet" href="assets/result1.css" />
+</head>
+
+<body>
+  <h1>
+  <span id="score"></span>%</span>
+  </h1>
+  
+  <a href="../C.index.html" class="button-link">try again</a>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const score = urlParams.get("score") || "--";
+    document.getElementById("score").innerText = score;
+  </script>
+</body>
+</html>

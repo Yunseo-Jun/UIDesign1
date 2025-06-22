@@ -1,0 +1,38 @@
+body {  
+   background-image: url("good.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
+   background-size: cover;
+   font-family: "Apple Myungjo", serif;
+   background-color: white;
+}
+
+
+h1 {
+  position: absolute;
+  top: 550px;
+  left: 1250px;
+  width: 300px;
+  height: 200px;
+  font-size: 200px;
+  text-align: center;
+  font-family: "Apple Myungjo", serif;
+  color: black;
+}
+
+.button-link {
+  position: absolute;
+  top: 550px;
+  left: 490px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: "Arial", serif;
+  color: yellow;
+  text-shadow: 0px 0px 10px mediumspringgreen;
+  background-color: slategrey;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
