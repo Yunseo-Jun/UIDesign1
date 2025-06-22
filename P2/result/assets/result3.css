@@ -1,5 +1,5 @@
 body {  
-   background-image: url("good.png");
+   background-image: url("jjang.png");
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center; 
@@ -11,8 +11,8 @@ body {
 
 h1 {
   position: absolute;
-  top: 550px;
-  left: 1250px;
+  top: 600px;
+  left: 100px;
   width: 300px;
   height: 200px;
   font-size: 200px;
@@ -23,8 +23,8 @@ h1 {
 
 .button-link {
   position: absolute;
-  top: 550px;
-  left: 490px;
+  top: 950px;
+  left: 150px;
   display: inline-block;
   padding: 10px 15px;
   font-size: 20px;
